@@ -1,0 +1,76 @@
+body,html,h1,h2,h3,h4,h5,p,dl,dd,ul,ol,form,input,textarea,th,td,select {
+	margin: 0;
+	padding: 0;
+}
+
+em {
+	font-style: normal;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	border: none;
+	vertical-align: top;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+input,
+textarea {
+	outline: none;
+}
+
+textarea {
+	resize: none;
+	overflow: auto;
+}
+
+body {
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color:#404040
+}
+
+.clear {
+	zoom: 1;
+}
+
+.clear:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.headerC li a:hover,
+.mytaobottom a:hover,
+.shouchangbottom a:hover,
+.shopbottom a:hover {
+	color: #c40000;
+	text-decoration: underline;
+}
+
+.content{width:100%;margin:0 auto;}
+.d_s_w{position:relative;width:800px;padding:20px;background:#282828;margin:0 auto;}
+.d_s_w span{display:inline-block;width:226px;height:56px;background:#ccc;text-align:center;line-height:56px;margin-left:28px;}
+.d_s_w span a{color:#282828;font-size:20px}
+.d_s_w img{display:block;width:800px;margin-top:30px;}
+.pre,.next,.returnTop{position:absolute;display:block;width:80px;height:80px;background:#282828;font-size:15px;text-align:center;line-height:80px;color:#666;cursor:pointer;}
+.pre{margin-left:820px;}
+.next{margin-left:820px;}
+.returnTop{width:80px;height:80px;margin-left:820px}
+
+.nav_fixed{position:fixed;top:200px;}
+.nav_fixed1{position:fixed;top:280px;}
+.nav_fixed2{position:fixed;top:360px;}
+
+
+
