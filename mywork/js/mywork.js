@@ -210,6 +210,32 @@ $(function(){
 	})
 		
 })();
+
+(function(){
+	var shouming=$('.shouming'),
+	    onoff=true;
+	$('.reading').click(function(){
+		shouming.css('display','none');
+		onoff=false;
+	})
+	
+	$('.shoumingarea').bind({
+		'mouseenter':function(){
+			if(onoff){
+			shouming.css('display','block');
+			shouming.animate({
+				'left':'-10px'
+			},100)
+		}},
+		'mouseleave':function(){
+			if(onoff){
+			shouming.animate({
+				'left':'260px'
+			},100)
+			shouming.css('display','none');
+		}}
+	})
+})();
 	
 fixleft("#J_m_nav","nav_fixed");  
   function fixleft(J,N){

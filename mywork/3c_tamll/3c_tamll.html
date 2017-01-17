@@ -1,0 +1,900 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+<meta content="email=no" name="format-detection">
+<link href="css/3c_tamll.css" rel="stylesheet" />
+<script src="js/transform.js"></script>
+<script src="js/3c_tamll.js"></script>
+<title>天猫电器城</title>
+<script>
+setRem();
+window.addEventListener("orientationchange", setRem);
+window.addEventListener("resize", setRem);
+function setRem() {
+	var html = document.querySelector("html");
+	var width = html.getBoundingClientRect().width;
+	html.style.fontSize = width / 16 + "px";
+}
+</script>
+</head>
+<body>
+	<header class="stop">
+		<nav class="tabNavs">
+			<a class="navQs" href="#">每日十点抢卷</a>
+			<a class="navMs" href="#">更多预告</a>
+			<span class="tabUs"></span>
+		</nav>
+	</header>
+	<div class="navLFs">
+			<nav class="navLs">
+				<a>猜你喜欢</a>
+				<a>手机</a>
+				<a>大家电</a>
+				<a>厨房电器</a>
+				<a>智能设备</a>
+				<a>影音娱乐</a>
+				<a>电脑周边</a>
+			</nav>
+	</div>
+	<section class="wrap">
+     <div class="wrapChild">
+	  <header class="header clearfix">
+		<div class="more"></div>
+		<div class="search"></div>
+		<div class="logo"></div>
+		<div class="point">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<div class="address">苏州</div>
+		
+		<div class="maorbycar">
+			<span class="up"></span>
+			<span class="bycar"><a href="#">购物车</a></span>
+			<span class="house"><a href="#">首页</a></span>
+		</div>	
+	</header>	
+		<div class="city">
+			<div class="cityHead">
+				<span class="returnM">< 返回</span>
+				<span class="chooseC">城市选择</span>
+			</div>
+			<div class="nowcity">
+				<span class="nowcity_one">当前定位城市:</span>
+				<span class="nowcity_two">苏州</span>
+			</div>
+			<div class="cityContent">
+				<ul>
+					<li>北京</li>
+					<li>上海</li>
+					<li>广州</li>
+					<li>深圳</li>
+					<li>苏州</li>
+					<li>南京</li>
+					<li>杭州</li>
+					<li>合肥</li>
+					<li>无锡</li>
+					<li>武汉</li>
+					<li>天津</li>
+					<li>温州</li>
+					<li>成都</li>
+					<li>...</li>
+				</ul>
+			</div>
+		</div>	
+		
+	<div class="total">
+		<img src="img/total.jpg" />
+		<span class="returnT">
+			点<br/>击<br/>此<br/>处<br/>返<br/>回<br/><br/><
+		</span>
+	</div>
+	
+	<div class="searchs">
+	  <div class="searchH">
+	  	<img src="img/returnS.jpg" class="returnS" />
+		<input type="text" placeholder="搜索商品/店铺" />
+		<img src="img/scaleB.jpg" class="scaleB" />
+		<img src="img/delet.jpg" class="delet" />
+	  </div>
+	</div>
+		
+		
+		
+		<div class="content">
+			<div id="picTab">
+	               <ul id="picList">
+			    	<li>
+			        	<a href="#">
+			            	<img src="img/turnplay1.jpg" />
+			            </a>
+			        </li>
+			        <li>
+			        	<a href="#">
+			            	<img src="img/turnplay2.jpg" />
+			            </a>
+			        </li>
+			        <li>
+			        	<a href="#">
+			            	<img src="img/turnplay3.jpg" />
+			            </a>
+			        </li>
+			        <li>
+			        	<a href="#">
+			            	<img src="img/turnplay4.jpg" />
+			            </a>
+			        </li>
+	
+			    </ul>
+			    <nav id="picNav">
+			    	<span class="active"></span>
+			        <span></span>
+			        <span></span>
+			        <span></span>
+			    </nav>
+			</div>
+			
+			
+	<div class="hot">
+		<a href="#" target="_blank"><img src="img/hot.jpg" /></a>
+	</div>		
+			
+			
+	<div class="lastTime">
+		<p>距离开始还有<span class="iDay"></span>天<span class="iHours"></span>时<span class="iMin"></span>分<span class="iSed"></span>妙</p>
+	</div>
+	
+	
+	<div class="some">
+		<a href="#" target="_blank"><img src="img/some.jpg" /></a>
+	</div>	
+	
+	<div class="hotP">
+		<div class="hotPleft">
+			<h4>新品SHOW</h4>
+			<span>苹果iPhone7新品发售</span>
+			<img src="img/mphone.jpg" />
+		</div>
+		<div class="hotPright">
+			<div class="hotPt">
+			  <div class="hotPtl">
+			  	<h4>IT爱好者</h4>
+				<span>数码粉集结处</span>
+			  </div>
+				<img src="img/bk.jpg" />
+			</div>
+			
+			<div class="hotPb">
+				<div class="hotPbl">
+					<h4>花呗分期</h4>
+					<span>12期0利息</span>
+					<img src="img/huawei.jpg" />
+				</div>
+				<div class="hotPbr">
+					<h4>苏宁易购</h4>
+					<span>进口洗碗机</span>
+					<img src="img/wash.jpg" />
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="shihui">
+		<span></span>
+		<img src="img/shihui.jpg" />
+		<p>10-11点抢卷|拾惠价再用卷|击穿30天成交价</p>
+	</div>
+	
+	
+	<section class="tab clearfix">
+		<nav class="tabNav">
+			<a class="navQ" href="#">每日十点抢卷</a>
+			<a class="navM" href="#">更多预告</a>
+			<span class="tabU"></span>
+		</nav>
+		<div class="tabList clearfix">
+			<ul class="tabShow clearfix">
+				<li>
+					<a hrf="#">
+						<img class="contentL" src="img/ximenzi.jpg" />
+						<span class="contentR">
+							<span class="sapn0">SIEMENS/西门子...</span>
+							<span class="span1">预售爆款，点击可支付定金</span>
+							<span class="span2">月销量3577件</span>
+							<span class="span3">¥6699</span>
+							<span class="span4">¥7999</span>
+							<span class="span5">立即购买</span>
+						</span>
+					</a>
+				</li>
+				
+				<li>
+					<a hrf="#">
+						<img class="contentL1" src="img/youyanji.jpg" />
+						<span class="contentR">
+							<span class="sapn0">方太EM23TS+HC21BE万...</span>
+							<span class="span1">预售爆款，点击可支付定金</span>
+							<span class="span2">月销量8620件</span>
+							<span class="span3">¥4399</span>
+							<span class="span4">¥5858</span>
+							<span class="span5">立即购买</span>
+						</span>
+					</a>
+				</li>
+				
+				<li>
+					<a hrf="#">
+						<img class="contentL2" src="img/geli.jpg" />
+						<span class="contentR">
+							<span class="sapn0">Gree/格力KFI...</span>
+							<span class="span1">预售爆款，点击可支付定金</span>
+							<span class="span2">月销量4731件</span>
+							<span class="span3">¥2799</span>
+							<span class="span4">¥4080</span>
+							<span class="span5">立即购买</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img class="balinghou" src="img/80hou.jpg" />
+					</a>
+				</li>
+				<li>
+					<a hrf="#">
+						<img class="contentL3" src="img/xiyiji4.jpg" />
+						<span class="contentR">
+							<span class="sapn0">Haier/海尔...</span>
+							<span class="span1">预售爆款，点击可支付定金</span>
+							<span class="span2">月销量5731件</span>
+							<span class="span3">¥2999</span>
+							<span class="span4">¥5080</span>
+							<span class="span5">立即购买</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a hrf="#">
+						<img class="contentL4" src="img/xiaomi.jpg" />
+						<span class="contentR">
+							<span class="sapn0">xiaomi/小米笔记本A...</span>
+							<span class="span1">预售爆款，点击可支付定金</span>
+							<span class="span2">月销量7980件</span>
+							<span class="span3">¥4999</span>
+							<span class="span4">4999</span>
+							<span class="span5">立即购买</span>
+						</span>
+					</a>
+				</li>
+			</ul>
+			
+			<ul class="tabShow clearfix">
+				<li>
+					<a hrf="#">
+						<img class="contentL6" src="img/xiyiji1.jpg" />
+						<span class="contentR">
+							<span class="sapn0">Littleswan/小天鹅...</span>
+							<span class="span1">预售爆款，点击可支付定金</span>
+							<span class="span2">月销量21497件</span>
+							<span class="span3">¥1698</span>
+							<span class="span4">¥2609</span>
+							<span class="span5">立即购买</span>
+						</span>
+					</a>
+				</li>
+				
+				<li>
+					<a hrf="#">
+						<img class="contentL7" src="img/xiyiji2.jpg" />
+						<span class="contentR">
+							<span class="sapn0">Littleswan/小天鹅TD...</span>
+							<span class="span1">预售爆款，点击可支付定金</span>
+							<span class="span2">月销量17765件</span>
+							<span class="span3">¥2798</span>
+							<span class="span4">¥4998</span>
+							<span class="span5">立即购买</span>
+						</span>
+					</a>
+				</li>
+				
+				<li>
+					<a hrf="#">
+						<img class="contentL8" src="img/xiyiji3.jpg" />
+						<span class="contentR">
+							<span class="sapn0">Haier/海尔...</span>
+							<span class="span1">预售爆款，点击可支付定金</span>
+							<span class="span2">月销量13608件</span>
+							<span class="span3">¥2299</span>
+							<span class="span4">¥3999</span>
+							<span class="span5">立即购买</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img class="balinghou" src="img/80hou.jpg" />
+					</a>
+				</li>
+				<li>
+					<a hrf="#">
+						<img class="contentL3" src="img/xiyiji4.jpg" />
+						<span class="contentR">
+							<span class="sapn0">Haier/海尔...</span>
+							<span class="span1">预售爆款，点击可支付定金</span>
+							<span class="span2">月销量5731件</span>
+							<span class="span3">¥2999</span>
+							<span class="span4">¥5080</span>
+							<span class="span5">立即购买</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a hrf="#">
+						<img class="contentL4" src="img/xiaomi.jpg" />
+						<span class="contentR">
+							<span class="sapn0">xiaomi/小米笔记本A...</span>
+							<span class="span1">预售爆款，点击可支付定金</span>
+							<span class="span2">月销量7980件</span>
+							<span class="span3">¥4999</span>
+							<span class="span4">4999</span>
+							<span class="span5">立即购买</span>
+						</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</section>	
+</div>
+	
+	
+	<div class="group">
+		<img src="img/zuhe.jpg" />
+	</div>
+<!--	down-->
+		
+		<div class="navLF">
+			<nav class="navL">
+				<a>猜你喜欢</a>
+				<a>手机</a>
+				<a>大家电</a>
+				<a>厨房电器</a>
+				<a>智能设备</a>
+				<a>影音娱乐</a>
+				<a>电脑周边</a>
+			</nav>
+		</div>
+
+	<section class="tabs clearfix">
+
+		<div class="tabLists clearfix">
+			
+
+			
+	  <!--111-->		
+			<ul class="tabShows clearfix">
+				<li>
+					<a hrf="#">
+						<img class="contentLs" src="img/ximenzi.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">111...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量3577件</span>
+							<span class="span3s">¥6699</span>
+							<span class="span4s">¥7999</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+				
+				<li>
+					<a hrf="#">
+						<img class="contentL1s" src="img/youyanji.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">方太EM23TS+HC21BE万...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量8620件</span>
+							<span class="span3s">¥4399</span>
+							<span class="span4s">¥5858</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+				
+				<li>
+					<a hrf="#">
+						<img class="contentL2s" src="img/geli.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">Gree/格力KFI...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量4731件</span>
+							<span class="span3s">¥2799</span>
+							<span class="span4s">¥4080</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a hrf="#">
+						<img class="contentL3s" src="img/xiyiji4.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">Haier/海尔...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量5731件</span>
+							<span class="span3s">¥2999</span>
+							<span class="span4s">¥5080</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a hrf="#">
+						<img class="contentL4s" src="img/xiaomi.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">xiaomi/小米笔记本A...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量7980件</span>
+							<span class="span3s">¥4999</span>
+							<span class="span4s">4999</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+			</ul>
+			
+   <!--222-->
+   
+   <ul class="tabShows clearfix">
+				<li>
+					<a hrf="#">
+						<img class="contentLs" src="img/ximenzi.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">222...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量3577件</span>
+							<span class="span3s">¥6699</span>
+							<span class="span4s">¥7999</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+				
+				<li>
+					<a hrf="#">
+						<img class="contentL1s" src="img/youyanji.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">方太EM23TS+HC21BE万...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量8620件</span>
+							<span class="span3s">¥4399</span>
+							<span class="span4s">¥5858</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+				
+				<li>
+					<a hrf="#">
+						<img class="contentL2s" src="img/geli.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">Gree/格力KFI...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量4731件</span>
+							<span class="span3s">¥2799</span>
+							<span class="span4s">¥4080</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a hrf="#">
+						<img class="contentL3s" src="img/xiyiji4.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">Haier/海尔...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量5731件</span>
+							<span class="span3s">¥2999</span>
+							<span class="span4s">¥5080</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a hrf="#">
+						<img class="contentL4s" src="img/xiaomi.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">xiaomi/小米笔记本A...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量7980件</span>
+							<span class="span3s">¥4999</span>
+							<span class="span4s">4999</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+			</ul>
+			
+	<!--333	-->
+	
+	<ul class="tabShows clearfix">
+				<li>
+					<a hrf="#">
+						<img class="contentLs" src="img/ximenzi.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">333...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量3577件</span>
+							<span class="span3s">¥6699</span>
+							<span class="span4s">¥7999</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+				
+				<li>
+					<a hrf="#">
+						<img class="contentL1s" src="img/youyanji.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">方太EM23TS+HC21BE万...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量8620件</span>
+							<span class="span3s">¥4399</span>
+							<span class="span4s">¥5858</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+				
+				<li>
+					<a hrf="#">
+						<img class="contentL2s" src="img/geli.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">Gree/格力KFI...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量4731件</span>
+							<span class="span3s">¥2799</span>
+							<span class="span4s">¥4080</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a hrf="#">
+						<img class="contentL3s" src="img/xiyiji4.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">Haier/海尔...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量5731件</span>
+							<span class="span3s">¥2999</span>
+							<span class="span4s">¥5080</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a hrf="#">
+						<img class="contentL4s" src="img/xiaomi.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">xiaomi/小米笔记本A...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量7980件</span>
+							<span class="span3s">¥4999</span>
+							<span class="span4s">4999</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+			</ul>
+			
+			<!--444-->
+			<ul class="tabShows clearfix">
+				<li>
+					<a hrf="#">
+						<img class="contentLs" src="img/ximenzi.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">444...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量3577件</span>
+							<span class="span3s">¥6699</span>
+							<span class="span4s">¥7999</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+				
+				<li>
+					<a hrf="#">
+						<img class="contentL1s" src="img/youyanji.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">方太EM23TS+HC21BE万...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量8620件</span>
+							<span class="span3s">¥4399</span>
+							<span class="span4s">¥5858</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+				
+				<li>
+					<a hrf="#">
+						<img class="contentL2s" src="img/geli.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">Gree/格力KFI...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量4731件</span>
+							<span class="span3s">¥2799</span>
+							<span class="span4s">¥4080</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a hrf="#">
+						<img class="contentL3s" src="img/xiyiji4.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">Haier/海尔...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量5731件</span>
+							<span class="span3s">¥2999</span>
+							<span class="span4s">¥5080</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a hrf="#">
+						<img class="contentL4s" src="img/xiaomi.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">xiaomi/小米笔记本A...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量7980件</span>
+							<span class="span3s">¥4999</span>
+							<span class="span4s">4999</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+			</ul>
+			
+			<!--555-->
+			<ul class="tabShows clearfix">
+				<li>
+					<a hrf="#">
+						<img class="contentLs" src="img/ximenzi.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">555...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量3577件</span>
+							<span class="span3s">¥6699</span>
+							<span class="span4s">¥7999</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+				
+				<li>
+					<a hrf="#">
+						<img class="contentL1s" src="img/youyanji.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">方太EM23TS+HC21BE万...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量8620件</span>
+							<span class="span3s">¥4399</span>
+							<span class="span4s">¥5858</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+				
+				<li>
+					<a hrf="#">
+						<img class="contentL2s" src="img/geli.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">Gree/格力KFI...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量4731件</span>
+							<span class="span3s">¥2799</span>
+							<span class="span4s">¥4080</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a hrf="#">
+						<img class="contentL3s" src="img/xiyiji4.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">Haier/海尔...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量5731件</span>
+							<span class="span3s">¥2999</span>
+							<span class="span4s">¥5080</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a hrf="#">
+						<img class="contentL4s" src="img/xiaomi.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">xiaomi/小米笔记本A...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量7980件</span>
+							<span class="span3s">¥4999</span>
+							<span class="span4s">4999</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+			</ul>
+			
+			<!--666-->
+			<ul class="tabShows clearfix">
+				<li>
+					<a hrf="#">
+						<img class="contentLs" src="img/ximenzi.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">666...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量3577件</span>
+							<span class="span3s">¥6699</span>
+							<span class="span4s">¥7999</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+				
+				<li>
+					<a hrf="#">
+						<img class="contentL1s" src="img/youyanji.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">方太EM23TS+HC21BE万...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量8620件</span>
+							<span class="span3s">¥4399</span>
+							<span class="span4s">¥5858</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+				
+				<li>
+					<a hrf="#">
+						<img class="contentL2s" src="img/geli.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">Gree/格力KFI...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量4731件</span>
+							<span class="span3s">¥2799</span>
+							<span class="span4s">¥4080</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a hrf="#">
+						<img class="contentL3s" src="img/xiyiji4.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">Haier/海尔...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量5731件</span>
+							<span class="span3s">¥2999</span>
+							<span class="span4s">¥5080</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a hrf="#">
+						<img class="contentL4s" src="img/xiaomi.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">xiaomi/小米笔记本A...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量7980件</span>
+							<span class="span3s">¥4999</span>
+							<span class="span4s">4999</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+			</ul>
+			
+			<!--777-->
+			<ul class="tabShows clearfix">
+				<li>
+					<a hrf="#">
+						<img class="contentLs" src="img/ximenzi.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">777...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量3577件</span>
+							<span class="span3s">¥6699</span>
+							<span class="span4s">¥7999</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+				
+				<li>
+					<a hrf="#">
+						<img class="contentL1s" src="img/youyanji.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">方太EM23TS+HC21BE万...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量8620件</span>
+							<span class="span3s">¥4399</span>
+							<span class="span4s">¥5858</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+				
+				<li>
+					<a hrf="#">
+						<img class="contentL2s" src="img/geli.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">Gree/格力KFI...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量4731件</span>
+							<span class="span3s">¥2799</span>
+							<span class="span4s">¥4080</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a hrf="#">
+						<img class="contentL3s" src="img/xiyiji4.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">Haier/海尔...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量5731件</span>
+							<span class="span3s">¥2999</span>
+							<span class="span4s">¥5080</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a hrf="#">
+						<img class="contentL4s" src="img/xiaomi.jpg" />
+						<span class="contentRs">
+							<span class="sapn0s">xiaomi/小米笔记本A...</span>
+							<span class="span1s">预售爆款，点击可支付定金</span>
+							<span class="span2s">月销量7980件</span>
+							<span class="span3s">¥4999</span>
+							<span class="span4s">4999</span>
+							<span class="span5s">立即购买</span>
+						</span>
+					</a>
+				</li>
+			</ul>
+			
+			
+			
+			
+		</div>
+	</section>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</div>
+</section>
+
+	<div id="scrollBar"></div>
+</body>
+</html>		
